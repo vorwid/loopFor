@@ -11,8 +11,10 @@ namespace ConsoleApplication6
         {
             for (int i = 1; i <= 20; i++)
             {
-                if (i % 2 == 0) continue;
-                Console.WriteLine(i);
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
         }
     }
